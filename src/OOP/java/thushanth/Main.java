@@ -23,6 +23,15 @@ public class Main {
         overload.add(1);
         overload.add(1,2);
         overload.add(1,2,3);
+        overload.employee("thushanth", 1000);
+        overload.employee(120, "fbdshfb");
+        overload.employee("w", "kj");
+
+//        over riding
+        OverRidingChild display = new OverRidingChild();
+        display.display("Hi");
+        OverRidingParent display1 = new OverRidingParent();
+        display1.display("Hi");
     }
 >>>>>>> 9e2e625 (Initial commit)
 }
